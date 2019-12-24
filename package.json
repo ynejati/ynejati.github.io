@@ -2,7 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "prod": "webpack --mode production",
+    "dev": "webpack -w --progress --mode development"
   },
   "author": "Yousuf Nejati (http://github.com/ynejati)",
   "devDependencies": {
@@ -14,20 +16,20 @@
     "css-loader": "^3.4.0",
     "file-loader": "^5.0.2",
     "style-loader": "^1.1.1",
+    "terser-webpack-plugin": "2.3.1",
     "ts-loader": "6.2.1",
     "typescript": "^3.7.4",
+    "webp-cli": "1.0.2",
     "webpack": "^4.41.4",
+    "webpack-cli": "3.3.10",
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
     "bind-decorator": "1.0.11",
     "classnames": "^2.2.6",
     "diff": "^4.0.1",
-    "history": "^4.10.1",
     "marked": "^0.8.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-toggle": "4.0.2",
-    "url-loader": "1.1.2"
+    "react-dom": "^16.12.0"
   }
 }
