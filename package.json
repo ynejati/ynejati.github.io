@@ -1,40 +1,33 @@
 {
-  "name": "mobx-react-typescript-boilerplate",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Boilerplate for MobX + React project with Typescript, ES6 compilation and hot code reloading",
   "scripts": {
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mobxjs/mobx-react-typescript-boilerplate.git"
-  },
-  "keywords": [
-    "react",
-    "reactjs",
-    "boilerplate",
-    "mobx",
-    "starter-kit"
-  ],
-  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mobxjs/mobx/issues"
-  },
-  "homepage": "http://mobxjs.github.com/mobx",
+  "author": "Yousuf Nejati (http://github.com/ynejati)",
   "devDependencies": {
-    "@types/react": "^15.0.39",
-    "@types/react-dom": "^15.5.1",
-    "awesome-typescript-loader": "^3.2.1",
-    "typescript": "^2.4.2",
-    "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.6.1"
+    "@types/classnames": "^2.2.9",
+    "@types/diff": "^4.0.2",
+    "@types/marked": "^0.7.2",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "style-loader": "^1.1.1",
+    "ts-loader": "6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.4",
+    "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
-    "mobx": "^3.2.1",
-    "mobx-react": "^4.2.2",
-    "mobx-react-devtools": "^4.2.15",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "bind-decorator": "1.0.11",
+    "classnames": "^2.2.6",
+    "diff": "^4.0.1",
+    "history": "^4.10.1",
+    "marked": "^0.8.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-toggle": "4.0.2",
+    "url-loader": "1.1.2"
   }
 }
